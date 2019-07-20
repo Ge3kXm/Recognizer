@@ -373,7 +373,6 @@ extension OCRViewController {
         alertController.addAction(UIAlertAction(title: "取消",
                                                 style: .cancel,
                                                 handler: { (_) in
-            self.navigationController?.dismiss(animated: true, completion: nil)
         }))
         alertController.addAction(UIAlertAction(title: "确认",
                                                 style: .default,
